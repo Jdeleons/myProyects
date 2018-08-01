@@ -1,0 +1,67 @@
+En este curso los estudiantes aprenderán a construir una completa API RESTful con el lenguaje PHP y el framework Laravel 5.5. Se abordarán todas las técnicas básicas y avanzadas para la construcción de servicios web totalmente profesionales, con autenticación del lado del servidor por medio de OAuth2, acceso CORS, navegación entre recursos con HATEOAS y muchas cosas más.
+
+Qué es una API RESTful y por qué desarrollarlas
+
+En líneas generales, una API RESTful es una interfaz de acceso a datos de un servidor por medio de HTTP, en la que se obtiene como respuesta la información generalmente en formato JSON. Las APIs RESTful tienen la particularidad de no mantener estado de la aplicación, lo que facilita asuntos tan importantes como la escalabilidad y siguen el estandard REST para su implementación y funcionamiento
+
+Hoy casi cualquier proyecto mediano o grande dispone de una API mediante la cual se ofrece información a todo tipo de clientes. Como la comunicación se realiza mediante HTTP, casi cualquier sistema es capaz de conectarse con el API y usarla para consumir sus recursos, sin importar el sistema o lenguaje de programación usado.
+
+Existen muchos motivos por los que implementar un proyecto backend con base en una API RESTful. El más importante es la completa separación entre backend y frontend, lo que permite desarrollar un proyecto de una complejidad media o alta con dos arquitecturas completamente separadas. Con ello se consigue no solo un producto de más fácil mantenimiento, sino también la posibilidad de crear diferentes sistemas (clientes) que consumen un mismo backend (la API). Es decir, permite desarrollar un único backend, basado en una API, para dar soporte a una aplicación web, una aplicación para móviles iOS / Android, aplicación de escritorio y cualquier otro producto que más adelante se pretenda incorporar.
+
+Existen muchas formas de construir una simple API o servicio web, pero en este curso, vas a crear una verdadera API RESTful, lo cual te permitirá seguir las mejores prácticas y así tener un sistema altamente escalable y mantenible.
+
+Por qué usar Laravel 5.5 para desarrollar un API REST
+
+Laravel es uno de los frameworks PHP más populares. Ha conseguido una gran comunidad de usuarios en poco tiempo, colocándose a la cabeza de los frameworks más usados y de los proyectos Open Source con mayor avance. Eso es resultado de la cantidad de ayudas y guías de diseño de software que facilitan el desarrollo de proyectos de todo tipo.
+
+Laravel permite desarrollar cualquier tipo de sitio web, basado en contenido, así como servicios web como podrían ser las APIs RESTful. Ofrece una base de código sólida y patrones de diseño consolidados en la industria, para desarrollar más rápido y crear proyectos más fácilmente mantenibles. A la vez, consigue mantener una experiencia de trabajo sencilla y amigable para el desarrollador.
+
+La nueva versión del framework, Laravel 5.5, se ofrece con nuevas características que facilitan aún más el desarrollo de proyectos de API REST, que ayudan a reducir las tareas repetitivas y escribir menor cantidad de código.
+
+Crear entornos de trabajo para empezar a desarrollar con Laravel está al alcance de cualquier desarrollador, de modo que es fácil comenzar a desarrollar. Cuando el proyecto está finalizado, llevar a producción aplicaciones en Laravel es sencillo, ya el lenguaje PHP dispone de soporte altamente extendido y los requisitos del framework son bastante sencillos de disponer.
+
+Para quién está dirigido el curso de APIs RESTful con Laravel
+
+Este curso está dirigido a desarrolladores de PHP experimentados, que ya tengan una base de conocimiento sólida en el lenguaje. No es absolutamente necesario haber trabajado anteriormente con Laravel, dado que vamos a explicar desde cero el setup del entorno de trabajo y se explicarán también las bases del framework necesarias para el desarrollo de la API: sistema de routing, controladores, modelos, etc.
+
+Sin embargo, debe quedar claro que no es un curso de Laravel desde cero, en el que se vean todas las características del framework. Nos vamos a centrar exclusivamente en aquellas partes que se necesita utilizar para el desarrollo de una API RESTful con Laravel 5.5. Asimismo, los conceptos iniciales y básicos del framework se explicarán brevemente, sin entrar tanto en detalle.
+
+En resumen, un desarrollador con conocimientos en cualquier otro framework PHP será capaz de asimilar perfectamente el curso, y por supuesto cualquier persona que conozca Laravel previamente. En el caso de no haber trabajado con ningún framework PHP anteriormente, se recomienda tener bastante experiencia con PHP y quizás aclarar conceptos y prácticas mediante el Curso de Laravel desde cero que hemos impartido anteriormente en EscuelaIT.
+
+Contenido del curso de API REST con Laravel 5.5
+
+Este curso tiene un componente mayormente práctico. A lo largo de las distintas sesiones se irá desarrollando un proyecto de API RESTful, comenzando por el entorno de trabajo y la instalación de Laravel, los componentes más sencillos del servicio web y luego los recursos más complejos. En las últimas sesiones se implementará la capa de seguridad, para controlar el acceso a los diferentes recursos usando OAuth2.
+
+A continuación resumimos las sesiones que se ofrecen en este curso, junto con los contenidos que se van a impartir en cada una de ellas.
+
+Clase1: Introducción y Preparación del Proyecto
+Durante esta clase se introducirán y crearán los componentes necesarios para la estructura inicial del proyecto (modelos, controladores, rutas, migraciones y factories) y se implementarán los modelos de la API (atributos y relaciones).
+
+Clase2: Implementación de los Componentes Restantes de la API RESTful
+En esta clase se implementarán componentes restantes como migraciones y factories para poblar la base de datos de forma automatizada, junto con un controlador Inicial de operaciones sobre el recurso User.
+
+Clase 3: Generalizando el Código y Mejorando el Funcionamiento de la API
+En esta clase implementarán algunas funciones sobre los nuevos recursos del API REST. Se refactorizará el código anterior para centralizar la construcción de las respuestas en un mismo componente reutilizable (trait). Además se explicará el el manejo de los diferentes errores y excepciones.
+
+Clase 4: Comenzando operaciones complejas de la API RESTful
+Durante esta clase se implementarán las operaciones requeridas, junto con sus respectivas rutas, para nuevos recursos fundamentales de la API RESTful, junto con algunas operaciones complejas, las cuales incluyen más de un recurso por operación.
+
+Clase 5: Finalizando las Operaciones Complejas
+En esta clase se terminarán de implementar las operaciones complejas, incluyendo la
+funcionalidad principal que es la creación de transacciones (venta de productos) mediante el API.
+
+Clase 6: Agregando Nuevas Características a la API y Transformando las Respuestas para Aumentar la Compatibilidad
+Durante esta clase se agregarán algunas características de ayuda para el manejo de productos en la API, junto con la implementación de un sistema de transformación de las
+respuestas, que permitirá eliminar la dependencia entre la estructura de las respuestas y la base de datos.
+
+Clase 7: Implementando HATEOAS en la API
+Abordaremos HATEOAS, una pieza fundamental para cualquier API que se haga llamar RESTful. Por medio de HATEOAS, se facilita la “navegación” entre recursos y el acceso a los mismos.
+
+Clase 8: Implementando la capa de seguridad usando OAuth2
+En esta clase, haremos uso de Laravel Passport para implementar todo un sistema de seguridad y control de acceso a la API por medio de OAuth2.
+
+Clase 9: Usando los diferentes flujos de acceso de OAuth2 y soportando CORS en la API
+En esta clase usaremos los principales flujos de acceso que nos permite la API por medio de OAuth2, para proteger el acceso a la API en diferentes niveles, adicionalmente agregaremos acceso a CORS, para facilitar el consumo de la API desde navegadores.
+
+
+https://manuais.iessanclemente.net/index.php/LARAVEL_Framework_-_Tutorial_01_-_Creaci%C3%B3n_de_API_RESTful

@@ -1,0 +1,14 @@
+{
+  "name": "noderestful",
+  "version": "1.0.0",
+  "description": "primer proyecto nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jd",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^17.3.1"
+  }
+}
