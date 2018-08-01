@@ -8,13 +8,18 @@ class UserController extends Controller
 {
     public function index()
 	 {
-		 $users = [
-			 'juan',
-			 'pedro',
-			 'jose',
-			 'miguel',
-			 '<script>alert("clicker")</script>'
-		 ];
+		 if(request()->has('empy')){
+			 $users = [];
+		 }else{
+			 $users = [
+				 'juan',
+				 'pedro',
+				 'jose',
+				 'miguel',
+			 ];
+
+		 }
+
 		 return view('users')
 		 			->with('users', $users)
 					->with('title', 'Listado de Usuarios');
