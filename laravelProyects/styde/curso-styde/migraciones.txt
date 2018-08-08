@@ -1,4 +1,9 @@
 necesitamos crear una bd antes de todo.
 
 	php artisan migrate
-necesitamos configurar las credenciales en el archivo env.	
+necesitamos configurar las credenciales en el archivo env
+
+	php artisan migrate:reset //devuelve todas las migraciones roolback
+	php artisan migrate:refresh //primero ejecuta un reset 
+	php artisan make:migration add_profession_to_users
+ 	
