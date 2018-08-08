@@ -1,0 +1,4 @@
+necesitamos crear una bd antes de todo.
+
+	php artisan migrate
+necesitamos configurar las credenciales en el archivo env.	
